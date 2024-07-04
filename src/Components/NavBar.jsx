@@ -25,7 +25,7 @@ const Navbar = () => {
       </nav>
       <header className="text-center my-12 flex flex-col md:flex-row justify-between mx-20 md:mx-48">
         <div className='w-full md:w-1/2'>
-          <p className="mt-4 text-2xl text-left">
+          <p className="mt-4 text-3xl	 text-left">
             decora tu hogar <span className="font-bold">en Madrid</span> de forma más fácil, barata y sostenible alquilando nuestros <span className="font-bold">muebles recuperados</span>
           </p>
           <div className="mt-8 text-sm border-b-2 border-black flex justify-between">
