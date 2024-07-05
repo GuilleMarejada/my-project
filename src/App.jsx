@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Filters from './Components/Filters'
 import Card from './Components/Card'
+import Header from './Components/Header'
 
 
 function App() {
@@ -17,8 +18,8 @@ function App() {
   return (
     <>
       <div className='bg-gray-300 h-100% px-20'>
+        <Header/>
         <div className="flex">
-
        <Filters/>
           <div className="grid grid-cols-3 gap-y-4 gap-x-64">
             <Card imagen={"src/assets/muebleAbitacolo.png"} titulo = {arrayTitulos[0]} recuperados={arrayRecuperados[0]} disponibles={arrayDisponibles[0]}/>
