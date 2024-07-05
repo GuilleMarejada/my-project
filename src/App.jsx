@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Filters from './Components/Filters'
 import Card from './Components/Card'
@@ -21,7 +19,7 @@ function App() {
         <Header/>
         <div className="flex mt-14">
        <Filters/>
-          <div className="grid grid-cols-3 gap-y-4 gap-x-64">
+          <div className="grid grid-cols-3 gap-y-4 gap-x-52 w-full">
             <Card imagen={"src/assets/muebleAbitacolo.png"} titulo = {arrayTitulos[0]} recuperados={arrayRecuperados[0]} disponibles={arrayDisponibles[0]}/>
             <Card imagen={"src/assets/muebleAbitacolo.png"} titulo = {arrayTitulos[1]} recuperados={arrayRecuperados[1]} disponibles={arrayDisponibles[1]}/>
             <Card imagen={"src/assets/muebleAbitacolo.png"} titulo = {arrayTitulos[2]} recuperados={arrayRecuperados[2]} disponibles={arrayDisponibles[2]}/>

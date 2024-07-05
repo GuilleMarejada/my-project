@@ -29,7 +29,7 @@ const Footer = () => {
           <ul>
             <li>percheros</li>
             <li>sillas y taburetes</li>
-            <li>msillones y sofás</li>
+            <li>sillones y sofás</li>
             <li>lámparas</li>
             <li>marcos y espejos</li>
             <li>otros objetos</li>
