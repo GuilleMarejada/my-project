@@ -66,7 +66,12 @@ const Footer = () => {
         </div>
         <div>
           <div className="font-bold mb-5 text-3xl">¡siguenos en redes!</div>
-          <div>1234</div>
+          <div className=" flex justify-between mt-11">
+            <i className="fa-brands fa-linkedin fa-2xl"></i>
+            <i className="fa-brands fa-facebook fa-2xl"></i>
+            <i className="fa-brands fa-instagram fa-2xl"></i>
+            <i className="fa-brands fa-square-x-twitter fa-2xl"></i>
+          </div>
         </div>
       </div>
       <div className="flex justify-center">

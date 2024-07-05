@@ -5,7 +5,7 @@ import './App.css'
 import Filters from './Components/Filters'
 import Card from './Components/Card'
 import Header from './Components/Header'
-
+import BodyFooter from './Components/BodyFooter'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,9 +17,9 @@ function App() {
 
   return (
     <>
-      <div className='bg-gray-300 h-100% px-20'>
+      <div className='bg-gray-300 h-100% px-20 py-10'>
         <Header/>
-        <div className="flex">
+        <div className="flex mt-14">
        <Filters/>
           <div className="grid grid-cols-3 gap-y-4 gap-x-64">
             <Card imagen={"src/assets/muebleAbitacolo.png"} titulo = {arrayTitulos[0]} recuperados={arrayRecuperados[0]} disponibles={arrayDisponibles[0]}/>
@@ -37,6 +37,7 @@ function App() {
 
           </div>
         </div>
+        <BodyFooter />
       </div>
     
     </>

@@ -7,11 +7,11 @@ const Filters = () => {
     return(
         <>
         <div className=" mr-20">
-        <span><strong>estos filtros te <br/>pueden servir</strong></span>
+        <span className="text-3xl"><strong>estos filtros te <br/>pueden servir</strong></span>
         <p className=""><i className="fa-solid fa-arrow-down-short-wide"></i></p>
         {/* Filtros Colores */}
-        <div className="list-color">
-            <span><strong>color</strong></span>
+        <div className="list-color text-2xl mt-10">
+            <span className="text-3xl"><strong>color</strong></span>
             <ul className="list-color mt-5">
                 <li>
                     <input id="natural_color" type="checkbox" className="mr-2"></input>
@@ -39,8 +39,8 @@ const Filters = () => {
                 </li>
             </ul>
             {/* Filtros Estilos */}
-            <div className="list-style">
-            <span><strong>estilo</strong></span>
+            <div className="list-style  mt-10">
+            <span className="text-3xl"><strong>estilo</strong></span>
             <ul className="list-none mt-5">
                 <li>
                     <input id="industrial" type="checkbox" className="mr-2"></input>
@@ -73,10 +73,10 @@ const Filters = () => {
             </ul>
             </div>
             {/* Filtro Precio */}
-            <div className="filter-Prize mt-5">
+            <div className="filter-Prize mt-10">
                 <div className="">
 
-                <span><strong>precio(€/mes)</strong></span>
+                <span className="text-3xl"><strong>precio(€/mes)</strong></span>
                 <br/>
                 <div className="mt-4">
                 <input type="text" className="border-2 border-solid border-black rounded w-20  " placeholder="desde"></input>
@@ -86,8 +86,8 @@ const Filters = () => {
 
             </div>
             {/* Filtros espacios */}
-            <div className="list-space">
-            <span><strong>espacios</strong></span>
+            <div className="list-space  mt-10">
+            <span className="text-3xl"><strong>espacios</strong></span>
             <ul className="list-none mt-5">
                 <li>
                     <input id="salón/comedor" type="checkbox" className="mr-2"></input>
@@ -117,7 +117,7 @@ const Filters = () => {
             </div>
 
             {/* Ver disponibilidad */}
-            <div className="inline-block border-y-4 border-solid border-black mt-5 p-1 ">
+            <div className="inline-block border-y-4 border-solid border-black mt-10 p-1 ">
                 <div className="flex justify-center">
                 <input type="checkbox" id="disponibilidad" ></input>
                 <label className="ml-2"><strong>Ver solo muebles</strong> <br/><strong> disponibles ahora </strong></label>
