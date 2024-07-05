@@ -35,7 +35,7 @@ const Header = () => {
         </ol>
         <img src={flechalarga} alt="fecha" />
         <div className="grid">
-        <p className="w-44 justify-self-end me-44">
+        <p className="w-44 justify-self-end me-56">
           <span className="font-bold">y lo mejor...</span><br/>¡ después podrá hacer
           lo mismo otra persona !
         </p>
