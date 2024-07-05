@@ -6,7 +6,7 @@ const Filters = () => {
 
     return(
         <>
-        <div className="container ml-4">
+        <div className=" mr-20">
         <span><strong>estos filtros te <br/>pueden servir</strong></span>
         <p className=""><i className="fa-solid fa-arrow-down-short-wide"></i></p>
         {/* Filtros Colores */}
